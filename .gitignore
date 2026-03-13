@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.log
+.ipynb_checkpoints/
+.cache/
+*.parquet
+*.lock
+*.metadata
+
+# Ignore only large/raw datasets
+data/raw/
+CIC-IDS2017/
+logs/

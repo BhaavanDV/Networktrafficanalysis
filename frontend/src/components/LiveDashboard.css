@@ -1,0 +1,29 @@
+/* src/styles/LiveDashboard.css */
+.live-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.packet-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.packet-list li {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.normal-packet {
+  background-color: #e0f7fa;
+  color: #006064;
+}
+
+.alert-packet {
+  background-color: #ffebee;
+  color: #b71c1c;
+  font-weight: bold;
+}
