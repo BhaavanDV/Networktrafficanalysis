@@ -1,3 +1,6 @@
+# =======================
+# Python stuff
+# =======================
 venv/
 __pycache__/
 *.pyc
@@ -9,7 +12,52 @@ __pycache__/
 *.lock
 *.metadata
 
-# Ignore only large/raw datasets
+# =======================
+# Ignore large/raw datasets
+# =======================
 data/raw/
 CIC-IDS2017/
 logs/
+
+# =======================
+# Node.js dependencies
+# =======================
+backend/node_modules/
+frontend/node_modules/
+
+# =======================
+# Environment files
+# =======================
+.env
+.env.local
+.env.*.local
+
+# =======================
+# Logs and debug files
+# =======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =======================
+# IDEs and Editors
+# =======================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =======================
+# Build / Distribution
+# =======================
+dist/
+build/
+*.tgz
+*.zip
+
+# =======================
+# Misc
+# =======================
+.DS_Store
+Thumbs.db
