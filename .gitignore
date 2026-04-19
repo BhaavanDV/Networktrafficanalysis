@@ -7,101 +7,52 @@ __pycache__/
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-pip-log.txt
-pip-delete-this-directory.txt
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Environments
+# Virtual environments
 .env
-.envrc
-.venv
-env/
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Jupyter
-.ipynb_checkpoints
-
-# Testing / coverage
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Mypy / type checkers
-.mypy_cache/
-.dmypy.json
-.dmypy.json
-.pyre/
-.pytype/
-cython_debug/
+env/
 
 # -----------------------------
-# Node.js (frontend & backend)
+# Node.js
 # -----------------------------
 node_modules/
 npm-debug.log
 
 # -----------------------------
-# ML models / data
+# ML Models
 # -----------------------------
 *.h5
 *.pkl
 *.pt
 *.joblib
+
+# -----------------------------
+# Large Files / Datasets
+# -----------------------------
+*.csv
+*.mmdb
+
 data/
+datasets/
 models/
+src_backup/
 
 # -----------------------------
-# Ignore ai_sentinel folder
-# -----------------------------
-ai_sentinel/
-
-# -----------------------------
-# IDE / editor
+# IDE / Editor
 # -----------------------------
 .vscode/
 .idea/
-.spyderproject
-.spyproject
-.ropeproject
 
 # -----------------------------
 # Misc
 # -----------------------------
+.ipynb_checkpoints
+.pytest_cache/
+.mypy_cache/
+coverage.xml
 htmlcov/
-docs/_build/
-site/
-.ruff_cache/
-.pypirc
-.cursorignore
-.cursorindexingignore
