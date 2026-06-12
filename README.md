@@ -4,6 +4,8 @@ A full-stack real-time Network Intrusion Detection and Traffic Analysis System b
 
 The project continuously generates and monitors network traffic, analyzes packets using machine learning models, detects anomalies and cyber attacks, and visualizes the results on an interactive Security Operations Center (SOC) dashboard.
 
+The system combines machine learning-based anomaly detection techniques with a modern React dashboard to provide live traffic monitoring, attack classification, and network analytics.
+
 ---
 
 # 📌 Features
